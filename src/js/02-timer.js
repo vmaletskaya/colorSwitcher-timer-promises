@@ -61,6 +61,7 @@ function convertMs(ms) {
 function dataAudit(data) {
   const currentDate = new Date();
   if (data[0] - currentDate <= 0) {
+    timerStartBtn.disabled = true;
     return Notify.failure('Please choose a date in the future', {showOnlyTheLastOne: true});
   }
 }
