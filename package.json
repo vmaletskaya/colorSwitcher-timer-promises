@@ -2,10 +2,11 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "hhttps://github.com/vmaletskaya/goit-js-hw-09",
+  "homepage": "hhttps://github.com/vmaletskaya/colorSwitcher-timer-promises",
+
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /colorSwitcher-timer-promises/"
   },
   "repository": {
     "type": "git",
